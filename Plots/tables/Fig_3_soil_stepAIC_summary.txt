@@ -1,0 +1,53 @@
+== Initial soil model ==
+
+Call:
+lm(formula = soil_formula, data = avg_table)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-1.3374 -0.4225 -0.1345  0.2289  7.7779 
+
+Coefficients:
+                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)    0.4630209  0.2944570   1.572  0.11627    
+nitrogen_15cm -0.0588647  0.0168886  -3.485  0.00052 ***
+phh2o_15cm     0.0691368  0.0442156   1.564  0.11833    
+clay_15cm      0.0178704  0.0035485   5.036 5.97e-07 ***
+soc_15cm       0.0011083  0.0008479   1.307  0.19159    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.7927 on 743 degrees of freedom
+  (92 observations deleted due to missingness)
+Multiple R-squared:  0.07174,	Adjusted R-squared:  0.06674 
+F-statistic: 14.36 on 4 and 743 DF,  p-value: 2.695e-11
+
+
+== VIF (initial soil model) ==
+nitrogen_15cm    phh2o_15cm     clay_15cm      soc_15cm 
+     2.254232      1.120105      1.198244      2.468153 
+
+== StepAIC selected soil model ==
+
+Call:
+lm(formula = ABC_GH_ratio ~ nitrogen_15cm + phh2o_15cm + clay_15cm, 
+    data = avg_table)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-1.3264 -0.4251 -0.1380  0.2285  7.7726 
+
+Coefficients:
+               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)    0.526959   0.290504   1.814 0.070088 .  
+nitrogen_15cm -0.043458   0.012101  -3.591 0.000351 ***
+phh2o_15cm     0.065884   0.044167   1.492 0.136200    
+clay_15cm      0.016211   0.003315   4.890 1.24e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.7931 on 744 degrees of freedom
+  (92 observations deleted due to missingness)
+Multiple R-squared:  0.06961,	Adjusted R-squared:  0.06586 
+F-statistic: 18.55 on 3 and 744 DF,  p-value: 1.291e-11
+
