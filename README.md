@@ -20,33 +20,37 @@ All four genome datasets were combined to compute a **ranked cheating index**, w
 
 ---
 
-## Repository Structure
 
-Data  
-Raw and processed datasets used in the analyses.
+# Repository Organization
 
-Scripts  
-R scripts used for statistical analyses and figure generation.
+`Scripts`  
+Contains R scripts used to conduct statistical analyses and generate figures.
 
-Plots  
-Intermediate outputs, phylogenetic trees, statistical results, and final figures.
+`Data`  
+Contains raw and processed datasets used in the analyses.
 
----
-
-## Software
-
-All analyses were performed in **R (v4.4.2)**.  
-Scripts can be executed directly in **R or RStudio**.
+`Plots`  
+Contains intermediate outputs, phylogenetic trees, statistical summaries, and final figures generated during the analyses.
 
 ---
 
-## Contact
+# How to Reproduce the Analyses
 
+All analyses were performed in **R (v4.4.2)**.
+
+Scripts can be executed directly in **R or RStudio**. The scripts in the `Scripts` directory contain the full workflow used to generate the analyses and figures presented in the manuscript.
+
+Most statistical analyses and figure generation can be reproduced on a standard desktop computer.
+
+---
+
+# Contact
+
+**Yingyi Fu**  
 University of Edinburgh  
-
-Yingyi Fu  
 yingyi.fu@ed.ac.uk  
 
-Ashish Malik  
+**Ashish Malik**  
+University of Edinburgh  
 ashish.malik@ed.ac.uk
 
