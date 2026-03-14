@@ -6,11 +6,12 @@ This repository contains scripts and datasets used for the analyses presented in
 
 The study investigates microbial resource acquisition strategies across large collections of bacterial genomes and metagenome-assembled genomes (MAGs). Using genomic traits related to carbohydrate depolymerisation and uptake, we quantify a cheating index across diverse microbial communities.
 
-To determine whether microbial cheating strategies extend beyond controlled litter decomposition experiments, we applied a genomic framework developed from **litter MAGs in a Mediterranean biome** to three additional genome collections:
+To determine whether microbial cheating strategies extend beyond controlled litter decomposition experiments, we applied a genomic framework developed from **litter MAGs in a Mediterranean biome** (raw sequencing data are publicly available in the NCBI Short Read Archive under BioProject accession PRJNA1178105) to three additional genome collections:
 
-- Soil MAGs from global biomes
-- Soil isolate genomes 
-- Environmental and host-associated MAGs from GlobDB 
+- Soil MAGs from global biomes (https://img.jgi.doe.gov/m)
+- Soil isolate genomes (https://img.jgi.doe.gov/m)
+- Environmental and host-associated MAGs from GlobDB (https://globdb.org/)
+The data to reproduce this work will be uploaded after acceptance of the manuscript.
 
 ---
 
@@ -21,7 +22,7 @@ To determine whether microbial cheating strategies extend beyond controlled litt
 Contains R scripts used to conduct statistical analyses and generate figures.
 
 `Data`  
-Contains raw and processed datasets used in the analyses.
+Contains raw datasets used in the analyses.
 
 `Plots`  
 Contains intermediate outputs, phylogenetic trees, statistical summaries, and final figures generated during the analyses.
