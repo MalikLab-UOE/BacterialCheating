@@ -1,22 +1,19 @@
-# BacterialCheating
+# Code to reproduce analyses of bacterial cheating strategies in soils
 
-Code and data for the study:
+This repository contains scripts and datasets used for the analyses presented in the study:
 
 **"Bacterial cheating is a widespread resource acquisition strategy in soils"**  
+(Manuscript in preparation)
 
-This repository contains scripts and processed datasets used to analyze microbial resource acquisition strategies across large collections of bacterial genomes and metagenome-assembled genomes (MAGs).
+The study investigates microbial resource acquisition strategies across large collections of bacterial genomes and metagenome-assembled genomes (MAGs). Using genomic traits related to carbohydrate depolymerisation and uptake, we quantify a cheating index across diverse microbial communities.
 
----
+To determine whether microbial cheating strategies extend beyond controlled litter decomposition experiments, we applied a genomic framework developed from **litter MAGs in a Mediterranean biome** to three additional genome collections:
 
-## Study Overview
-
-To test whether microbial cheating strategies extend beyond controlled litter decomposition experiments, we applied a genomic framework developed from **litter MAGs in a Mediterranean biome (n = 431)** to three additional genome collections:
-
-- Soil MAGs from global biomes 
-- Soil isolate genomes
+- Soil MAGs from global biomes
+- Soil isolate genomes 
 - Environmental and host-associated MAGs from GlobDB 
 
-All four genome datasets were combined to compute a **ranked cheating index**, which ranks genomes based on their raw cheating index across the pooled dataset and scales ranks between 0 and 1. 
+To enable direct comparison across genome collections, all four genome datasets were combined into a single pooled dataset. A **ranked cheating index** was calculated by ranking genomes based on their raw cheating index and scaling the ranks from 0 to 1 across the pooled dataset. 
 
 ---
 
