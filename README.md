@@ -10,7 +10,7 @@ To determine whether microbial cheating strategies extend beyond controlled litt
 
 - Soil MAGs from global biomes (https://img.jgi.doe.gov/m)
 - Soil isolate genomes (https://img.jgi.doe.gov/m)
-- Environmental and host-associated MAGs (https://globdb.org/) from GlobDB
+- Environmental and host-associated MAGs from GlobDB dataset (https://globdb.org/)
 
 The data to reproduce this work will be uploaded after acceptance of the manuscript.
 
